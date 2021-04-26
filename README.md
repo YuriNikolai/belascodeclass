@@ -14,5 +14,5 @@ Pra atualizar o índice, clique no ícone do lápis no canto superior direito.
 
 ### Links:
 
-https://processing.org/reference/
-https://homeostasislab.org/
+* https://processing.org/reference/
+* https://homeostasislab.org/
