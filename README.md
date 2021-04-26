@@ -6,6 +6,8 @@ Considerando a natureza individual das pastas, é melhor fazer upload e download
 
 O Processing dá nomes automáticos que facilitam a organização cronológica dos projetos, mas se todo mundo enviar assim vai bagunçar muito o repositório. Tentem nomear as pastas com alguma indicação das características do projeto. É preciso usar underlines no lugar de espaços pra nomear os projetos (e as pastas) do Processing.
 
+Considerem comentar o código antes de enviar, mesmo que tenha sido escrito individualmente e sem gerar confusões, pra servir de learning tool pros outros alunos :)
+
 Pra atualizar o índice, clique no ícone do lápis no canto superior direito.
 
 ## Índice
