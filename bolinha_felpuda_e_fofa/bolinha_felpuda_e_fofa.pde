@@ -24,7 +24,7 @@ void setup() {
 }
 
 void draw() {
-  background(255);
+  background(255); //mudei a cor do bg
   
   float rxp = (mouseX-(width/2)) * 0.005;
   float ryp = (mouseY-(height/2)) * 0.005;
@@ -34,7 +34,7 @@ void draw() {
   translate(width/2, height/2);
   rotateY(rx);
   rotateX(ry);
-  fill(255);
+  fill(255);  mudei a cor do preenchimento da esfera
   noStroke();
   sphere(radio);
 
@@ -49,13 +49,13 @@ class Pelo
 {
   float z = random(-radio, radio);
   float phi = random(TWO_PI);
-  float largo = random(1.15, 1.2);
+  float largo = random(1.15, 1.5); //aumentei
   float theta = asin(z/radio);
 
   Pelo() { // what's wrong with a constructor here
     z = random(-radio, radio);
     phi = random(TWO_PI);
-    largo = random(1.15, 1.5);
+    largo = random(1.15, 1.5); /aumentei
     theta = asin(z/radio);
   }
 
@@ -80,10 +80,10 @@ class Pelo
 
     strokeWeight(10); //aumentei o srtroke inicial
     beginShape(LINES);
-    stroke(204, 245, 245, 20);
+    stroke(204, 245, 245, 20); //mudei as cores e a opacidade
     vertex(x, y, z);
     strokeWeight(1); //diminui o sroke final
-    stroke(249, 180, 231, 50);
+    stroke(249, 180, 231, 50); //mudei as cores e a opacidade
     vertex(xb, yb, zb);
     endShape();
   }
