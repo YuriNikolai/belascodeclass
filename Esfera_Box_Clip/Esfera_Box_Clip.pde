@@ -3,6 +3,8 @@
  * by David Pena.  
  * 
  * Distribucion aleatoria uniforme sobre la superficie de una esfera. 
+ *
+ * Editado por Yuri N. Comentários em português explicam as alterações em relação ao original.
  */
 
 int cuantos = 16000;
@@ -14,7 +16,7 @@ float ry =0;
 void setup() {
   size(1024, 768, P3D);
 
-  radio = height/6.5; //reduzi a radio para que a box não ficasse totalmente dentro da esfera
+  radio = height/6.5; // Reduzi a radio para que a box não ficasse totalmente dentro da esfera
 
   lista = new Pelo[cuantos];
   for (int i = 0; i < lista.length; i++) {
@@ -36,10 +38,10 @@ void draw() {
   rotateX(ry);
   fill(0);
   noStroke();
-  box(radio * 1.8); //a primeira box é estática
+  box(radio * 1.8); // A primeira box é estática
   pushStyle();
-  rotate(rx * 3);
-  box(radio * 1.8); // a segunda box gira junto com a câmera
+  rotate(rx * 3); // A segunda box gira junto com a câmera.
+  box(radio * 1.8); 
   popStyle();
 
   for (int i = 0; i < lista.length; i++) {
