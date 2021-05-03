@@ -1,6 +1,6 @@
 ## Produção em Arte Eletrodigital I - Códigos
 
-Sintam-se à vontade pra enviarem qualquer criação. Pra fazerem uso dos seus projetos no programa, é preciso enviar os projetos do Processing (arquivos .pde) dentro das pastas que tem o mesmo nome do projeto (o Processing cria pastas automaticamente pra conter o .pde); não é preciso compactar as pastas.
+Sintam-se à vontade pra enviarem qualquer criação, aumentarem esse texto-guia, etc. Pra fazerem uso dos seus projetos no programa, é preciso enviar os projetos do Processing (arquivos .pde) dentro das pastas que tem o mesmo nome do projeto (o Processing cria pastas automaticamente pra conter o .pde); não é preciso compactar as pastas.
 
 Considerando a natureza individual das pastas, é melhor fazer upload e download manual de cada uma ao invés de usar git pra controlar o projeto.
 
@@ -12,7 +12,7 @@ Pra atualizar o índice, clique no ícone do lápis no canto superior direito.
 
 ## Índice
 
-* Bouncing Ball Simples - Movimento linear.
+* Bouncing Ball Simples - Movimento linear, somente no eixo X. Enviado como exemplo.
 
 ### Links:
 
