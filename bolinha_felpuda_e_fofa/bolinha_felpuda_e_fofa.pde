@@ -34,7 +34,7 @@ void draw() {
   translate(width/2, height/2);
   rotateY(rx);
   rotateX(ry);
-  fill(255);  mudei a cor do preenchimento da esfera
+  fill(255);  //mudei a cor do preenchimento da esfera
   noStroke();
   sphere(radio);
 
@@ -55,7 +55,7 @@ class Pelo
   Pelo() { // what's wrong with a constructor here
     z = random(-radio, radio);
     phi = random(TWO_PI);
-    largo = random(1.15, 1.5); /aumentei
+    largo = random(1.15, 1.5); //aumentei
     theta = asin(z/radio);
   }
 
