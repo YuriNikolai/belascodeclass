@@ -11,7 +11,7 @@ Pra atualizar o índice, clique no ícone do lápis no canto superior direito.
 ## Índice
 
 * Bouncing Ball Simples - Movimento linear, somente no eixo X. Enviado como exemplo.
-* Esfera Box Clip - Alteração no exemplo "Esfera" que vêm junto com o Processing. Um cubo estático e um cubo móvel são usados como máscaras pra ocultar a esfera parcialmente. Comentários em espanhol são do autor original, comentários em português são da nossa versão.
+* Esfera Box Clip - Alteração no exemplo "Esfera" que vêm junto com o Processing. Um cubo estático e um cubo móvel são usados como máscaras pra ocultar a esfera parcialmente. Comentários em espanhol e inglês são do autor original, comentários em português são da nossa versão.
 
 ### Links:
 
