@@ -6,13 +6,15 @@ O Processing dá nomes automáticos que facilitam a organização cronológica d
 
 Considerem comentar o código antes de enviar, mesmo que tenha sido escrito individualmente e sem gerar confusões, pra servir de learning tool pros outros alunos :)
 
-Pra atualizar o índice, clique no ícone do lápis no canto superior direito.
+Pra atualizar o índice, clique no ícone do lápis no canto superior direito. Também é possível editar os próprios arquivos .pde desse jeito, por exemplo pra adicionar comentários sem precisar realizar upload novamente caso tenha esquecido de alguma coisa.
 
 ## Índice
 
-* Bouncing Ball Simples - Movimento linear, somente no eixo X. Enviado como exemplo.
+
+* Bouncing Ball Simples - Movimento linear, somente no eixo X. 
 * Esfera Box Clip - Alteração no exemplo "Esfera" que vêm junto com o Processing. Um cubo estático e um cubo móvel são usados como máscaras pra ocultar a esfera parcialmente. Comentários em espanhol são do autor original, comentários em português são da nossa versão.
 * 🌈 Bolinha Felpuda e Fofa 🌈  Alteração no exemplo "Esfera" que vêm junto com o Processing. Cores e formato dos pêlos alterados. Comentários em espanhol são do autor original, comentários em português são da nossa versão.
+
 
 ### Links:
 
