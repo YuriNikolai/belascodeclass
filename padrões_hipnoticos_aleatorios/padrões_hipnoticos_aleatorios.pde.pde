@@ -1,4 +1,7 @@
-/* xadrez 01 -> Padrão geométrico desenhado com uma Elipse em movimento */
+/* Padrões hipnoticos aleatorios.pde -> Padrão geométrico desenhado com uma Elipse em movimento, 
+as dimensoes da elipse e o ponto de partida variam aleatoriamente, 
+a velocidade é constante
+o ponto de partida do dessenho varia a cada ciclo */
 
 
 float x = random(width); // coordenada eixo x da elipse (x, y, r1, r2)
