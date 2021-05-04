@@ -1,3 +1,6 @@
+/* xadrez 01 -> Padrão geométrico desenhado com uma Elipse em movimento */
+
+
 float x = random(width); // coordenada eixo x da elipse (x, y, r1, r2)
 float y = random(height); // coordenada eixo y da elipse (x, y, r1, r2)
 float vx = 10; // velocidade eixo x
