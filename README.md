@@ -6,6 +6,8 @@ O Processing dá nomes automáticos que facilitam a organização cronológica d
 
 Considerem comentar o código antes de enviar, mesmo que tenha sido escrito individualmente e sem gerar confusões, pra servir de learning tool pros outros alunos :)
 
+Dentro das pastas de cada projeto, é possível encontrar prints pra ver o resultado do código sem precisar copiá-lo.
+
 Pra atualizar o índice, clique no ícone do lápis no canto superior direito. Também é possível editar os próprios arquivos .pde desse jeito, por exemplo pra adicionar comentários sem precisar realizar upload novamente caso tenha esquecido de alguma coisa.
 
 ## Índice
