@@ -20,3 +20,6 @@ Pra atualizar o índice, clique no ícone do lápis no canto superior direito. T
 
 * https://processing.org/reference/
 * https://homeostasislab.org/
+* __Learning Processing, Daniel Shiffman__ --> Livro --> http://learningprocessing.com/ 
+   Git Repo --> https://github.com/shiffman/LearningProcessing --> A repo for examples from the book Learning Processing
+*  __Learning Processing: A Begginer's guide to Programming Images, Animations and Interaction__ --> Playlist do Sam Lavigne no youtube onde ele segue os assuntos do livro Learning Processing do Daniel Shiffman, o vídeo está em Ingles mas tem legendas em Portguês. --> https://www.youtube.com/c/TheCodingTrain/playlists?view=50&shelf_id=10 
