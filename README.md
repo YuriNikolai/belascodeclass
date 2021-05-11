@@ -22,4 +22,4 @@ Pra atualizar o índice, clique no ícone do lápis no canto superior direito. T
 
 * https://processing.org/reference/ - Documentação da linguagem do Processing
 * https://homeostasislab.org/ - Banco de dados de criadores de net art brasileiros e suas obras
-* https://opengameart.org/ - Repositório de assets (principalmente arte 2D) gratuitos para uso - Lembre-se de verificar as licensas antes de redistribuir recursos em seu projeto! Também é possível enviar suas criações para o site.
+* https://opengameart.org/ - Repositório de assets (principalmente arte 2D) gratuitos para uso - Lembre-se de verificar as licenças antes de redistribuir recursos em seu projeto! Também é possível enviar suas criações para o site.
