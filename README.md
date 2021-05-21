@@ -20,6 +20,7 @@ Pra atualizar o índice, clique no ícone do lápis no canto superior direito. T
 
 * https://processing.org/reference/
 * https://homeostasislab.org/
+* __The coding Train__ Canal do Daniel Shiffman com muitos vídeos sobre progamação, inclusive um sobre processing --> __Learning Processing: A Beginner's Guide to Programming Images, Animation, and Interaction__ https://www.youtube.com/c/TheCodingTrain/playlists?view=50&shelf_id=10 (o vídeo está em Ingles mas tem legendas em Portguês)
+e um ensinando a usar o gitHub __Git and GitHub for Poets__--> https://www.youtube.com/playlist?list=PLRqwX-V7Uu6ZF9C0YMKuns9sLDzK6zoiV 
 * __Learning Processing, Daniel Shiffman__ --> Livro --> http://learningprocessing.com/ 
    Git Repo --> https://github.com/shiffman/LearningProcessing --> A repo for examples from the book Learning Processing
-*  __Learning Processing: A Begginer's guide to Programming Images, Animations and Interaction__ --> Playlist do Sam Lavigne no youtube onde ele segue os assuntos do livro Learning Processing do Daniel Shiffman, o vídeo está em Ingles mas tem legendas em Portguês. --> https://www.youtube.com/c/TheCodingTrain/playlists?view=50&shelf_id=10 
