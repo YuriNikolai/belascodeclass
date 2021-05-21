@@ -78,11 +78,11 @@ class Pelo
     float yb = yo * largo;
     float zb = zo * largo;
 
-    strokeWeight(10); //aumentei o srtroke inicial
+    strokeWeight(10); //aumentei o stroke inicial
     beginShape(LINES);
     stroke(204, 245, 245, 20); //mudei as cores e a opacidade
     vertex(x, y, z);
-    strokeWeight(1); //diminui o sroke final
+    strokeWeight(1); //diminui o stroke final
     stroke(249, 180, 231, 50); //mudei as cores e a opacidade
     vertex(xb, yb, zb);
     endShape();

@@ -6,6 +6,8 @@ O Processing dá nomes automáticos que facilitam a organização cronológica d
 
 Considerem comentar o código antes de enviar, mesmo que tenha sido escrito individualmente e sem gerar confusões, pra servir de learning tool pros outros alunos :)
 
+Dentro das pastas de cada projeto, é possível encontrar prints pra ver o resultado do código sem precisar copiá-lo.
+
 Pra atualizar o índice, clique no ícone do lápis no canto superior direito. Também é possível editar os próprios arquivos .pde desse jeito, por exemplo pra adicionar comentários sem precisar realizar upload novamente caso tenha esquecido de alguma coisa.
 
 ## Índice
@@ -18,9 +20,12 @@ Pra atualizar o índice, clique no ícone do lápis no canto superior direito. T
 
 ### Links:
 
-* https://processing.org/reference/
-* https://homeostasislab.org/
+
+* https://processing.org/reference/ - Documentação da linguagem do Processing
+* https://homeostasislab.org/ - Banco de dados brasileiro para curadorias e criadores de net art
+* https://opengameart.org/ - Repositório de assets (principalmente arte 2D) gratuitos para uso - Lembre-se de verificar as licenças antes de redistribuir recursos em seu projeto! Também é possível enviar suas criações para o site.
 * __The coding Train__ Canal do Daniel Shiffman com muitos vídeos sobre progamação, inclusive um sobre processing --> __Learning Processing: A Beginner's Guide to Programming Images, Animation, and Interaction__ https://www.youtube.com/c/TheCodingTrain/playlists?view=50&shelf_id=10 (o vídeo está em Ingles mas tem legendas em Portguês)
 e um ensinando a usar o gitHub __Git and GitHub for Poets__--> https://www.youtube.com/playlist?list=PLRqwX-V7Uu6ZF9C0YMKuns9sLDzK6zoiV 
 * __Learning Processing, Daniel Shiffman__ --> Livro --> http://learningprocessing.com/ 
    Git Repo --> https://github.com/shiffman/LearningProcessing --> A repo for examples from the book Learning Processing
+
