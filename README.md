@@ -17,6 +17,7 @@ Pra atualizar o índice, clique no ícone do lápis no canto superior direito. T
 * Esfera Box Clip - Alteração no exemplo "Esfera" que vêm junto com o Processing. Um cubo estático e um cubo móvel são usados como máscaras pra ocultar a esfera parcialmente. Comentários em espanhol são do autor original, comentários em português são da nossa versão.
 * 🌈  Bolinha Felpuda e Fofa  -  Alteração no exemplo "Esfera" que vêm junto com o Processing. Cores e formato dos pêlos alterados. Comentários em espanhol são do autor original, comentários em português são da nossa versão.
 * 〰️  Padrões hipnoticos aleatorios - Padrão geométrico desenhado com uma Elipse em movimento, as dimensões da elipse e o ponto de partida variam aleatoriamente a cada ciclo, a velocidade é constante. 
+* Gato Domestico - Cópia do projeto ainda inacabada. Gato se vira para a direção em que anda, mas não há colisões com paredes, animações ou sistema de fome.
 
 ### Links:
 
