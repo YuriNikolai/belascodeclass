@@ -17,7 +17,7 @@ Pra atualizar o índice, clique no ícone do lápis no canto superior direito. T
 * Esfera Box Clip - Alteração no exemplo "Esfera" que vêm junto com o Processing. Um cubo estático e um cubo móvel são usados como máscaras pra ocultar a esfera parcialmente. Comentários em espanhol são do autor original, comentários em português são da nossa versão.
 * 🌈  Bolinha Felpuda e Fofa  -  Alteração no exemplo "Esfera" que vêm junto com o Processing. Cores e formato dos pêlos alterados. Comentários em espanhol são do autor original, comentários em português são da nossa versão.
 * 〰️  Padrões hipnoticos aleatorios - Padrão geométrico desenhado com uma Elipse em movimento, as dimensões da elipse e o ponto de partida variam aleatoriamente a cada ciclo, a velocidade é constante. 
-* Gato Domestico - Cópia do projeto ainda inacabada. Gato se vira para a direção em que anda, mas não há colisões com paredes, animações ou sistema de fome.
+* Gato Domestico - Cópia do projeto ainda inacabada. Gato se vira para a direção em que anda, mas não há colisões com paredes, animações ou sistema de fome. (Cópia da pasta "sketch_210510a" do joão, pois não consigo mover arquivos .png sem git.
 
 ### Links:
 
@@ -25,7 +25,7 @@ Pra atualizar o índice, clique no ícone do lápis no canto superior direito. T
 * https://processing.org/reference/ - Documentação da linguagem do Processing
 * https://homeostasislab.org/ - Banco de dados brasileiro para curadorias e criadores de net art
 * https://opengameart.org/ - Repositório de assets (principalmente arte 2D) gratuitos para uso - Lembre-se de verificar as licenças antes de redistribuir recursos em seu projeto! Também é possível enviar suas criações para o site.
-* __The coding Train__ Canal do Daniel Shiffman com muitos vídeos sobre progamação, inclusive um sobre processing --> __Learning Processing: A Beginner's Guide to Programming Images, Animation, and Interaction__ https://www.youtube.com/c/TheCodingTrain/playlists?view=50&shelf_id=10 (o vídeo está em Ingles mas tem legendas em Portguês)
+* __The coding Train__ Canal do Daniel Shiffman com muitos vídeos sobre progamação, inclusive um sobre processing --> __Learning Processing: A Beginner's Guide to Programming Images, Animation, and Interaction__ https://www.youtube.com/c/TheCodingTrain/playlists?view=50&shelf_id=10 (o vídeo está em Inglês mas tem legendas em Portguês)
 e um ensinando a usar o gitHub __Git and GitHub for Poets__--> https://www.youtube.com/playlist?list=PLRqwX-V7Uu6ZF9C0YMKuns9sLDzK6zoiV 
 * __Learning Processing, Daniel Shiffman__ --> Livro --> http://learningprocessing.com/ 
    Git Repo --> https://github.com/shiffman/LearningProcessing --> A repo for examples from the book Learning Processing
