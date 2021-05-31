@@ -2,9 +2,15 @@ import processing.sound.*;
 PImage aa, BATTERY_EMPTY, BATTERY_HALF, leverdownx2, leverupx2, SCREEN_ON;
 int s;
 boolean leverstate;
+float x, y;
+float velox, veloy;
 
 void setup () {
+  x = random(30, width-30);
+  y = random(30, height-30);
   s = second();
+  velox = 3;
+  veloy = 3;
   size (800, 800);
   noSmooth();
   strokeWeight(2);
@@ -41,6 +47,18 @@ void draw() {
     popStyle();
   print(s);
   print("\n");
+ 
+    x = lerp(x + velox, x, 0.05);
+    if (x > width-30 || x < 0+30) {
+    velox = velox * -1;
+    }
+    y = lerp(y + veloy, y, 0.05);
+    veloy = veloy + 0.1; //grav
+    if (y > height - 30 || y < 0+30) {
+    veloy = veloy * -1;
+    }
+    
+    ellipse (x, y, 60, 60);
 
 }
 
