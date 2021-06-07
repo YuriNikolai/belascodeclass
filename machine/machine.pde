@@ -57,7 +57,7 @@ void draw() {
   vertex (390,205);
   vertex (400,250);
   vertex (380,250);
-  endShape();   // ball emitter mouthpiece start
+  endShape();   // ball emitter mouthpiece end
   image (aa, 12, 0);
   
   if (leverstate == false) {
@@ -68,7 +68,7 @@ void draw() {
   }
   
   s = second(); 
-  if (s % 2 == 0) { //pisca a luz da tela quando os segundos no relógio do computador for par
+  if (s % 2 == 0) { //pisca a luz da tela quando os segundos no relógio do computador são pares
     image (SCREEN_ON, 40+12, 48);
   }
   
