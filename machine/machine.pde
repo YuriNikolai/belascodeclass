@@ -67,14 +67,14 @@ void draw() {
     image (leverdownx2, 0, 108);
   }
   
-  s = second(); //blink screen light
-  if (s % 2 == 0) {
+  s = second(); 
+  if (s % 2 == 0) { //pisca a luz da tela quando os segundos no relógio do computador for par
     image (SCREEN_ON, 40+12, 48);
   }
   
   pushStyle();
   fill(0);
-  text( "x: " + mouseX + " y: " + mouseY, mouseX, mouseY ); //debug
+  text( "x: " + mouseX + " y: " + mouseY, mouseX, mouseY ); //só está aqui pra debug
   popStyle();
   println(leverstate);
  
@@ -94,5 +94,5 @@ void keyReleased() {
 
 void spawnBall() {
   Ball ball = new Ball(416,226,40,40);
-  balls = (Ball[]) append(balls, ball);
+  balls = (Ball[]) append(balls, ball); //adiciona uma nova bola no final do array
 }
