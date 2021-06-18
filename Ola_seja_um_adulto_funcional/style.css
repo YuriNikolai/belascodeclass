@@ -1,0 +1,10 @@
+html, body {
+  margin: 5px;
+  padding: 0;
+/*   background-image: url('assets/shark.gif'); */
+}
+canvas {
+  display: block;
+  margin: auto;
+  widht: 70%;
+}
