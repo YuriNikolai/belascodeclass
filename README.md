@@ -17,8 +17,9 @@ Pra atualizar o índice, clique no ícone do lápis no canto superior direito. T
 * Esfera Box Clip - Alteração no exemplo "Esfera" que vêm junto com o Processing. Um cubo estático e um cubo móvel são usados como máscaras pra ocultar a esfera parcialmente. Comentários em espanhol são do autor original, comentários em português são da nossa versão.
 * 🌈  Bolinha Felpuda e Fofa  -  Alteração no exemplo "Esfera" que vêm junto com o Processing. Cores e formato dos pêlos alterados. Comentários em espanhol são do autor original, comentários em português são da nossa versão.
 * 〰️  Padrões hipnoticos aleatorios - Padrão geométrico desenhado com uma Elipse em movimento, as dimensões da elipse e o ponto de partida variam aleatoriamente a cada ciclo, a velocidade é constante. 
-* Gato Domestico - Cópia do projeto ainda inacabada. Gato se vira para a direção em que anda, mas não há colisões com paredes, animações ou sistema de fome. (Cópia da pasta "sketch_210510a" do joão, pois não consigo mover arquivos .png sem git. 
-* Olá 😇 seja um adulto funcional 🌟 - feita com a biblioteca P5.js. Mini game.
+* Gato Domestico - Cópia do projeto ainda inacabada. Gato se vira para a direção em que anda, mas não há colisões com paredes, animações ou sistema de fome. (Cópia da pasta "sketch_210510a" do joão, pois não consigo mover arquivos .png sem git.
+* Machine - Exemplo simples de um projeto que usa uma classe e funções customizadas. Aperte espaço várias vezes pra manipular a alavanca e criar balões. Inclui algumas imagens não usadas que poderiam ser usadas para expandir o projeto.
+* Olá 😇 seja um adulto funcional 🌟 - feita com a biblioteca P5.js. Mini game. Use o mouse para jogar. No README está o link para jogar no navegador.
 
 ### Links:
 
