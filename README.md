@@ -21,6 +21,7 @@ Pra atualizar o índice, clique no ícone do lápis no canto superior direito. T
 * Machine - Exemplo simples de um projeto que usa uma classe e funções customizadas. Aperte espaço várias vezes pra manipular a alavanca e criar balões. Inclui algumas imagens não usadas que poderiam ser usadas para expandir o projeto.
 * Olá 😇 seja um adulto funcional 🌟 - feita com a biblioteca P5.js. Mini game. Use o mouse para jogar. No README está o link para jogar no navegador.
 * Objetos_demo - Demonstração de programação orientada a objetos (criação de classes e funções). Ainda não inclui inicialização de 100s de objetos em um loop (tipo estrelas). Isso vêm na próxima aula!
+* Arrays_demo - Demonstração básica de arrays, sua funcionalidade e sintaxe. Inclui demonstração da combinação de for loops e arrays para inicializar coisas.
 
 ### Links:
 
@@ -32,4 +33,4 @@ Pra atualizar o índice, clique no ícone do lápis no canto superior direito. T
 e um ensinando a usar o gitHub __Git and GitHub for Poets__--> https://www.youtube.com/playlist?list=PLRqwX-V7Uu6ZF9C0YMKuns9sLDzK6zoiV 
 * __Learning Processing, Daniel Shiffman__ --> Livro --> http://learningprocessing.com/ 
    Git Repo --> https://github.com/shiffman/LearningProcessing --> A repo for examples from the book Learning Processing
-
+* https://codepen.io/tsuhre
