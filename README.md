@@ -33,4 +33,4 @@ Pra atualizar o índice, clique no ícone do lápis no canto superior direito. T
 e um ensinando a usar o gitHub __Git and GitHub for Poets__--> https://www.youtube.com/playlist?list=PLRqwX-V7Uu6ZF9C0YMKuns9sLDzK6zoiV 
 * __Learning Processing, Daniel Shiffman__ --> Livro --> http://learningprocessing.com/ 
    Git Repo --> https://github.com/shiffman/LearningProcessing --> A repo for examples from the book Learning Processing
-* https://codepen.io/tsuhre
+* https://codepen.io/tsuhre - CodePen do artista Ben Matthews. Visualizações interativas com código explorável e editável.
