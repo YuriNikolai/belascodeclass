@@ -11,15 +11,11 @@ String select = "txt";
 int i = 0;
 int x = 0;
 int y = 0;
-int s = 0;
 boolean started = false;
-String side1 = "THE MOMENT I FOUND IT I LOST IT AGAIN";
-
 
 void setup () {
   size (768, 768);
   background (50);
-  s = second();
   //setup sfx
   String[] sfxStrings = {"spraycan1", "spraycan2"};
   for (int i = 0; i < sfxStrings.length; i++) { 
@@ -28,7 +24,6 @@ void setup () {
 }
 
 void draw () {
-  println(s);
   if (started == true) {
     i = int(random(paixoes.length));
     x = int(random(128, 640));
@@ -56,12 +51,6 @@ void draw () {
     popStyle();
     if (keyPressed) {
       started = true;
-    }
-  }
-  int s = millis();
-  if (s > 10000) {
-    for (int i = 0; i < 80; i = i + 5) {
-      text (side1, 10, s + 20);
     }
   }
 } //draw
