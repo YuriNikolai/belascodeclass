@@ -22,6 +22,7 @@ Pra atualizar o índice, clique no ícone do lápis no canto superior direito. T
 * Olá 😇 seja um adulto funcional 🌟 - feita com a biblioteca P5.js. Mini game. Use o mouse para jogar. No README está o link para jogar no navegador.
 * Objetos_demo - Demonstração de programação orientada a objetos (criação de classes e funções). Ainda não inclui inicialização de 100s de objetos em um loop (tipo estrelas). Isso vêm na próxima aula!
 * Arrays_demo - Demonstração básica de arrays, sua funcionalidade e sintaxe. Inclui demonstração da combinação de for loops e arrays para inicializar coisas.
+* Text_art - Arrays, randoms e a biblioteca de som do processing. Tape o vazio e não entre em pânico.
 
 ### Links:
 
