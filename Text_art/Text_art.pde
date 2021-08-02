@@ -1,6 +1,6 @@
 //sauces:
-//https://freesound.org/people/SmartWentCody/sounds/179008/
-//https://freesound.org/people/Kiyoshiakira/sounds/436774/
+//https://freesound.org/people/SmartWentCody/sounds/179008/ - por SmartWentCody - Licença Creative Commons Attribution 3.0 (CC-BY-3.0)
+//https://freesound.org/people/Kiyoshiakira/sounds/436774/ - por Kiyoshiakira - Domínio público (CC0)
 
 import processing.sound.*;
 
