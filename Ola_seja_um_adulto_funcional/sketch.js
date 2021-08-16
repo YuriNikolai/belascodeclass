@@ -21,125 +21,176 @@ julia brasil, 2021
 
 */
 
-let f = 0.3; //  framerate
-let game_over = 500; // numero de loops máximo
+let game_over = 100; // numero de loops máximo
 let fase = 0; // contador de loops
 let color1 = 'pink';
 let color2 = 'white';
-let fail; // som de ame over
-let biiip; // som quando tarefa aparece
+let fail; // imagem 
+let failsound;
+let biip; // som quando tarefa aparece
 let bip; // som quando clica em cima da tarefa
-let tarefas = []; // array com strings de emojis
+let tarefas = []; // array do obj tarefa
+let emojis = []; //aray com string de emojis
+let adulto = ['🥰','😌','🙂','😐','🙁','🤪','😭','🥵','😭'];
 let star; // string com emoji es estrela
+let vel = 3000;
+let pressão;
+let pr;
 
 
 
 //preload carrega os sons e defino os strings de emojis
 function preload(){ 
   bip = loadSound('assets/bip.mp3');
-  biiip = loadSound('assets/biiip.mp3');
+  biip = loadSound('assets/biiip.mp3');
   failsound = loadSound('assets/fail.mp3');
   fail = loadImage('assets/fail.gif');
-  
-  tarefas = ['🚰', '☕', '😴', '💩', '💅', '👖', '💧', '🍎', '🥗', '🎨', '⏰', '🛁', '🛒', '☎️', '💊', '✉️', '🧾', '📙', '📝', '🥑', '🍝', '🤳', '💸', '🧺', '🍽', '🍌' ];
-  star = '🌟';
+  fundo = loadImage('fundo.gif');
 }
 
-// o bg é desenhado no setup e depois no frame 1 do draw
 
 function setup(){
   createCanvas(600,600);
-  background(color1);
-  frameRate(f);
-  fill (color2);
-  noStroke();
-   rect(50, 50, width-100, height-100, 20);
-  fill(color1);
-  textAlign(CENTER);
-  textSize(width/35);
-  text ('Olá 😇 seja um adulto funcional 🌟 ', width/2, height/2.5);
-  text ('clique em cima das tarefas, não deixe acumular!', width/2, height/2);
-  text ('clique para começar 😜', width/2, height/1.5);
-  
-  if (fase = 0){fase = 1;}
+  pr = new pressure(540, 5, 55, 25);
+  for(let i = 0; i < 1; i++){
+    tarefas[i] = new tarefa();   
+  }
+  setTimeout(novaTarefa,1000);
 }
 
 
 function draw(){
-  
-  cursor(CROSS);
-  fase ++; 
-  f = f + 0.00025*fase; // para aumenta a velocidade a medida que aumenta a fase
-  
-  
-  if (fase == 1){
-    noLoop();// fase 1 não está em looping é acionada pelo evento mousePressed()
+ pressão = tarefas.length;
+  if (pressão >= game_over){
+    gameOver();
+  } else {
+  vel--;
   background(color1);
-  frameRate(f);
-  fill (color2);
-  noStroke();
-  rect(50, 50, width-100, height-100, 20);
-  fill(color1);
-  textAlign(CENTER);
-  textSize(width/35);
-  text ('Olá 😇 seja um adulto funcional 🌟 ', width/2, height/2.5);
-  text ('clique em cima das tarefas, não deixe acumular!', width/2, height/2);
-  text ('clique para começar 😜', width/2, height/1.5);
-    
+  image (fundo, 0, 0, width, height);
+  for(let i = 0; i < tarefas.length; i++){
+    tarefas[i].aparecer();
+    tarefas[i].mexer();
+  }
 }
-
-  /* play, o loop roda até fase = 500, variavel definida no começo */
-   else if (2 < fase && fase < game_over){
-  // definir variaveis aleatorias para x e y da imagem 
-  let a = random(5,width - 10);
-  let b = random(5,height - 10);
-  text(random (tarefas), a, b); //uma string aleatória do array tarefas
-  frameRate(f); //define o framerate (que aumenta a cada fase pq f = f + 0.00025*fase; // para aumenta a velocidade a medida que aumenta a fase 
-  bip.play();
-  }
-  
-   /* tela de game over */
-  else if (fase == game_over){
-    noLoop();//para de desenhar emojis
-    image(fail, 0, 0, 400, 400);
-    failsound.play();
-  }
-  
- //verificando se fase e framerate estão funcionando, se o keyPressed() zera a variável fase e se o framerate(f) etá aumentando de acordo com a fase
-  console.log(fase);
-  console.log(f);
+botarPressao();
 }
  
 function mousePressed(){
-  if (fase == 1){ //aciona o loop do draw
-    background(color1);
-    fill (color1);
-    circle(mouseX, mouseY, 35);
-    loop();
-    biiip.play();
-  }
-  if (2 < fase  && fase < game_over){ //
-    fill (color1);
-    circle(mouseX, mouseY, 35);
-    biiip.play();
-  }
-  
- else if (fase == game_over){ //instruções para falhar novamente
-   fill(color2)
-   rect(30, 180, 340, 40, 20);
-   fill(color1);
-    textSize(width/35);
-    textAlign(CENTER);
-    text('Aperte qualquer botão para falhar novamente 😂✨', width/2, height/2);
-   // image(fish, 110, 110, 180, 180);
-   failsound.play();
+  for (let i = tarefas.length-1; i >= 0; i--){
+    if (tarefas[i].noAlvo(true)){
+      tarefas.splice(i,1);
+      biip.play();
+    }
   }
 }
- 
-function keyPressed(){  // zerar fase e reiniciar framerate pra velocidade inicial, inicia loop novamente
-   fase = 0;
-    f = 0.3;
-  background(color1);
-  loop();
+  
+
+function novaTarefa(){
+  if ( tarefas.length <= game_over){
+  let t = new tarefa();
+  tarefas.push(t);
+  bip.play();
+  setTimeout(novaTarefa, vel);
+  }
+  console.log(vel);
 }
 
+
+function gameOver(){
+  failsound.play();
+  image(fail, 0, 0, width, height);
+  noLoop();
+  }
+
+function botarPressao(){
+  pr.show();
+  pr.mudar();
+}
+
+// recomeça o jogo
+function keyPressed() {
+  setup();
+}
+
+
+// objetos tarefa 
+class tarefa {
+   constructor(){
+     let emojis = ['🚰', '☕', '😴', '💩', '💅', '👖', '💧', '🍎', '🥗', '🎨', '⏰', '🛁', '🛒', '☎️', '💊', '✉️', '🧾', '📙', '📝', '🥑', '🍝', '🤳', '💸', '🧺', '🍽', '🍌' ];
+    this.s = random(emojis);
+     this.x = random(width-30);
+     this.y = random (height-30);
+     this.r = width/70;
+   }
+  
+  aparecer(){
+    textSize(width/35);
+    textAlign(CENTER);
+    text(this.s, this.x, this.y + this.r);
+    // stroke(1);
+    // noFill();
+    // circle(this.x, this.y , 2*this.r);
+  }
+  
+  mexer() {
+    this.x = this.x + random(-1, 1);
+    this.y = this.y + random(-1, 1);
+    if (this.x > width-30 || this.x < 10){
+      this.x = random(width-30);}
+      if (this.y > width-30 || this.y < 10){
+      this.y = random(height-30);
+    }
+  }
+  
+  noAlvo(){
+    let d = dist(mouseX, mouseY, this.x, this.y);
+    if (d < this.r){
+      return true;
+    } else {
+      return false;
+    }    
+  }
+}
+
+class pressure {
+  constructor(x, y, a, b){
+    this.x = x;
+    this.y = y;
+    this.a = a;
+    this.b = b;
+    this.text = adulto[0];
+  }
+  
+  show(){
+  fill('white');
+  noStroke();
+  rect(this.x, this.y, this.a, this.b, 10);
+  text (this.text, this.x+20, this.y+5, 20);
+  }
+  
+  mudar(){
+    if (pressão < 100){
+      this.text = adulto[8]
+    }if(pressão <= 45) {
+    this.text = adulto[7]
+    } if(pressão < 40) {
+     this.text = adulto[6]
+    } if(pressão < 35) {
+     this.text = adulto[5]
+    } if(pressão < 30) {
+     this.text = adulto[4]
+    } if(pressão < 20) {
+    this.text = adulto[3]
+    } if(pressão < 15) {
+     this.text = adulto[2]
+    } if(pressão < 10) {
+     this.text = adulto[1]
+    } if (pressão < 5){
+    this.text = adulto[0]  
+}
+
+  }
+}
+
+
+ 
