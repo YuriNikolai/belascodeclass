@@ -28,7 +28,7 @@ Pra atualizar o índice, clique no ícone do lápis no canto superior direito. T
 
 * https://processing.org/reference/ - Documentação da linguagem do Processing
 * https://homeostasislab.org/ - Banco de dados brasileiro para curadorias e criadores de net art
-* https://github.com/YuriNikolai/SicilianReport - Jogo open-source, criado como avaliaç
+* https://github.com/YuriNikolai/SicilianReport - Jogo open-source, criado como avaliacao desta disciplina
 * https://opengameart.org/ - Repositório de assets (principalmente arte 2D) gratuitos para uso - Lembre-se de verificar as licenças antes de redistribuir recursos em seu projeto! Também é possível enviar suas criações para o site.
 * __The coding Train__ Canal do Daniel Shiffman com muitos vídeos sobre progamação, inclusive um sobre processing --> __Learning Processing: A Beginner's Guide to Programming Images, Animation, and Interaction__ https://www.youtube.com/c/TheCodingTrain/playlists?view=50&shelf_id=10 (o vídeo está em Inglês mas tem legendas em Portguês)
 e um ensinando a usar o gitHub __Git and GitHub for Poets__--> https://www.youtube.com/playlist?list=PLRqwX-V7Uu6ZF9C0YMKuns9sLDzK6zoiV 
